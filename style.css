@@ -10,8 +10,8 @@ body{
     align-items: center;
 }
 .game{
-    height: 200px;
-    width:400px;
+    height: 320px;
+    width: 320px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -27,14 +27,39 @@ body{
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-color: black;
+    background-color: #fff;
 }
 
 #rst-btn{
-    margin-top: 150px;
+    margin-top: 20px;
     padding: 10px;
     width:100px;
     background-color: rgb(2, 16, 34);
     color: aliceblue;
     border-radius: 10px;
     border: none;
+}
+
+#msg{
+    color:#fff;
+    font-size: 40px;
+    margin-top: 0%;
+}
+#new-btn{
+    /* margin-top: 150px; */
+    /* margin-bottom: 60px; */
+    padding: 10px;
+    width:100px;
+    background-color: rgb(2, 16, 34);
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+}
+
+/* .msg-container{
+    height:150px;
+} */
+
+.hide{
+    display:none;
 }
